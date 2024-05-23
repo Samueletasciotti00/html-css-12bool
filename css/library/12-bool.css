@@ -15,8 +15,8 @@
 
 .container-fluid{
     width: 100%;
-    max-width: 100%;
-    
+    min-width: 100%;
+    margin: 0 auto;
 }
 
 /* ROWS AND COLUMNS */
