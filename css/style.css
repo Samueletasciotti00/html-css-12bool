@@ -10,3 +10,20 @@
 .container-fluid{
     margin-bottom: 20px;
 }
+
+
+/* NESTED PADDING LEFT COL */
+body>:nth-child(2) :nth-child(6) :nth-child(1){
+    padding: 10px;
+}
+
+/*  // RIGHT */
+body>:nth-child(2) :nth-child(6) :nth-child(1){
+    padding: 10px;
+}
+
+.col-6 .row div{
+    background-color: lightgreen;
+    border: 1px solid blue;
+    font-size: 12px;
+}
